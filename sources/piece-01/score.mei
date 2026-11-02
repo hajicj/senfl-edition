@@ -27,7 +27,13 @@
             <application version="1" xml:id="lets-encode">
                <name xml:id="name-1">Let's Encode!</name>
             </application>
-         </appInfo>
+                     <application xml:id="app-musibot-dvorak-ola-2-0-2025-03-09">
+               <name xml:id="name-2">Musibot dvorak-ola 2.0-2025-03-09</name>
+            </application>
+            <application xml:id="app-musibot-mzk-staff-1">
+               <name xml:id="name-3">Musibot mzk-staff 1</name>
+            </application>
+</appInfo>
       </encodingDesc>
       <manifestationList xml:id="manifestationList-1">
          <manifestation xml:id="manifestation-1">
@@ -65,12 +71,12 @@
                <p xml:id="p-2">Correct the layout (P0001)</p>
             </changeDesc>
          </change>
-         <change n="3" isodate="2026-10-12">
-            <respStmt>
-               <persName>musicog</persName>
+         <change xml:id="change-3" n="3" isodate="2026-10-12">
+            <respStmt xml:id="respStmt-5">
+               <persName xml:id="persName-10">musicog</persName>
             </respStmt>
-            <changeDesc>
-               <p>Set up the score (P0002)</p>
+            <changeDesc xml:id="changeDesc-3">
+               <p xml:id="p-3">Set up the score (P0002)</p>
             </changeDesc>
          </change>
 </revisionDesc>
@@ -114,66 +120,172 @@
                </scoreDef>
                <section xml:id="section-1">
                <pb xml:id="pb-1" n="1" facs="#surface-1"/>
-               <measure xml:id="measure-1" n="1" facs="#zone-1-1">
-                  <staff xml:id="staff-1" n="1">
-                     <layer xml:id="layer-1" n="1"/>
-                  </staff>
+               <scoreDef xml:id="scoreDef-2"><meterSig xml:id="meterSig-1" count="4" unit="4"/></scoreDef><measure xml:id="measure-1" n="1" facs="#zone-1-1">
+<staff xml:id="staff-1" n="1">
+                           <layer xml:id="pxjnrtw" n="1">
+                              <note xml:id="qupfklw" dur.ppq="2" dur="2" oct="4" pname="b" stem.dir="down">
+                                 <accid xml:id="rd27bno" accid.ges="f" glyph.auth="smufl" glyph.name="accidentalFlat" />
+                              </note>
+                              <note xml:id="syoijpr" dur.ppq="1" dur="4" oct="4" pname="a" stem.dir="up">
+                                 <accid xml:id="t122jqhw" />
+                              </note>
+                              <note xml:id="urzrl9p" dur.ppq="2" dur="2" oct="4" pname="g" stem.dir="up">
+                                 <accid xml:id="vgc1b03" />
+                              </note>
+                              <note xml:id="w1vl3dpc" dur.ppq="2" dur="2" oct="4" pname="f" stem.dir="up">
+                                 <accid xml:id="x1gd45kx" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-2" n="2" facs="#zone-1-2">
-                  <staff xml:id="staff-2" n="1">
-                     <layer xml:id="layer-2" n="1"/>
-                  </staff>
+<staff xml:id="staff-2" n="1">
+                           <layer xml:id="i1dw0iqa" n="1">
+                              <note xml:id="jlogw2d" dur.ppq="4" dur="1" oct="4" pname="e">
+                                 <accid xml:id="k187jdd1" />
+                              </note>
+                              <note xml:id="l1mhwgv0" dur.ppq="4" dur="1" oct="4" pname="d">
+                                 <accid xml:id="m1dlswgj" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-3" n="3" facs="#zone-1-3">
-                  <staff xml:id="staff-3" n="1">
-                     <layer xml:id="layer-3" n="1"/>
-                  </staff>
+<staff xml:id="staff-3" n="1">
+                           <layer xml:id="x13uyayq" n="1">
+                              <rest xml:id="ylta1dc" dur.ppq="2" dur="2" />
+                              <note xml:id="z1u6qem7" dur.ppq="2" dur="2" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="a1aiy9d9" />
+                              </note>
+                              <note xml:id="b17jna73" dur.ppq="4" dur="1" oct="5" pname="e">
+                                 <accid xml:id="c18tbmpm" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-4" n="4" facs="#zone-1-4">
-                  <staff xml:id="staff-4" n="1">
-                     <layer xml:id="layer-4" n="1"/>
-                  </staff>
+<staff xml:id="staff-4" n="1">
+                           <layer xml:id="nyyafsk" n="1">
+                              <note xml:id="o1nwlzdo" dots="1" dur.ppq="3" dur="2" oct="5" pname="f" stem.dir="down">
+                                 <accid xml:id="p1tpet5h" />
+                              </note>
+                              <note xml:id="q1f4cmnu" dur.ppq="1" dur="4" oct="5" pname="e" stem.dir="down">
+                                 <accid xml:id="rfqdm9v" />
+                              </note>
+                              <note xml:id="s1g7ae1n" dur.ppq="2" dur="2" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="t1yjba11" />
+                              </note>
+                              <note xml:id="u19w3alp" dur.ppq="2" dur="2" oct="5" pname="c" stem.dir="down">
+                                 <accid xml:id="vgwyqh6" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-5" n="5" facs="#zone-1-5">
-                  <staff xml:id="staff-5" n="1">
-                     <layer xml:id="layer-5" n="1"/>
-                  </staff>
+<staff xml:id="staff-5" n="1">
+                           <layer xml:id="gi11fuk" n="1">
+                              <note xml:id="h1e3j8ro" dur.ppq="4" dur="1" oct="4" pname="b">
+                                 <accid xml:id="i153intv" accid.ges="f" glyph.auth="smufl" glyph.name="accidentalFlat" />
+                              </note>
+                              <note xml:id="jwrxwv4" dur.ppq="4" dur="1" oct="4" pname="a">
+                                 <accid xml:id="k1wwfpxs" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-6" n="6" facs="#zone-1-6">
-                  <staff xml:id="staff-6" n="1">
-                     <layer xml:id="layer-6" n="1"/>
-                  </staff>
+<staff xml:id="staff-6" n="1">
+                           <layer xml:id="v1zgst" n="1">
+                              <rest xml:id="w6azih" dur.ppq="4" dur="1" />
+                              <rest xml:id="x7v7hsm" dur.ppq="2" dur="2" />
+                              <note xml:id="ykawpu7" dots="1" dur.ppq="3" dur="2" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="z1ruj9k2" />
+                              </note>
+                              <note xml:id="a1c0lyfe" dur.ppq="1" dur="4" oct="5" pname="c" stem.dir="down">
+                                 <accid xml:id="b12r06eh" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-7" n="7" facs="#zone-1-7">
-                  <staff xml:id="staff-7" n="1">
-                     <layer xml:id="layer-7" n="1"/>
-                  </staff>
+<staff xml:id="staff-7" n="1">
+                           <layer xml:id="m6iu8vs" n="1">
+                              <note xml:id="n14peoky" dur.ppq="1" dur="4" oct="5" pname="c" stem.dir="down">
+                                 <accid xml:id="o1fkcfyx" />
+                              </note>
+                              <note xml:id="p1d9m9jn" dur.ppq="1" dur="4" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="q1udw1zw" />
+                              </note>
+                              <note xml:id="r3xbwwl" dur.ppq="1" dur="4" oct="5" pname="e" stem.dir="down">
+                                 <accid xml:id="s1kscaad" />
+                              </note>
+                              <note xml:id="t4zoirj" dur.ppq="2" dur="2" oct="5" pname="f" stem.dir="down">
+                                 <accid xml:id="u1efpsv7" />
+                              </note>
+                              <note xml:id="vl96y2w" dur.ppq="2" dur="2" oct="5" pname="e" stem.dir="down">
+                                 <accid xml:id="wuc8lg4" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <sb xml:id="sb-1-8" n="1"/>
                <measure xml:id="measure-8" n="8" facs="#zone-1-8">
-                  <staff xml:id="staff-8" n="1">
-                     <layer xml:id="layer-8" n="1"/>
-                  </staff>
+<staff xml:id="staff-8" n="1">
+                           <layer xml:id="io40g63" n="1">
+                              <chord xml:id="l1q2d5fx" dur.ppq="8" dur="breve">
+                                 <note xml:id="j1xqt345" oct="5" pname="d">
+                                    <accid xml:id="k14e6ao3" />
+                                 </note>
+                                 <note xml:id="m16o1fi5" oct="5" pname="f">
+                                    <accid xml:id="n1c3x9jv" />
+                                 </note>
+                              </chord>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-9" n="9" facs="#zone-1-9">
-                  <staff xml:id="staff-9" n="1">
-                     <layer xml:id="layer-9" n="1"/>
-                  </staff>
+<staff xml:id="staff-9" n="1">
+                           <layer xml:id="y7fa18p" n="1">
+                              <chord xml:id="baddbou" dur.ppq="8" dur="breve">
+                                 <note xml:id="zrwhn1l" oct="5" pname="c">
+                                    <accid xml:id="ar9byzb" />
+                                 </note>
+                                 <note xml:id="c86b7ie" oct="5" pname="d">
+                                    <accid xml:id="d1v2zldv" />
+                                 </note>
+                              </chord>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-10" n="10" facs="#zone-1-10">
-                  <staff xml:id="staff-10" n="1">
-                     <layer xml:id="layer-10" n="1"/>
-                  </staff>
+<staff xml:id="staff-10" n="1">
+                           <layer xml:id="o1h61k5z" n="1">
+                              <note xml:id="p11h6z4u" dur.ppq="8" dur="breve" oct="5" pname="c">
+                                 <accid xml:id="q1stcnov" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-11" n="11" facs="#zone-1-11">
-                  <staff xml:id="staff-11" n="1">
-                     <layer xml:id="layer-11" n="1"/>
-                  </staff>
+<staff xml:id="staff-11" n="1">
+                           <layer xml:id="b320v0q" n="1">
+                              <note xml:id="czpo1eo" dur.ppq="8" dur="breve" oct="5" pname="c">
+                                 <accid xml:id="dqx2ttr" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-12" n="12" facs="#zone-1-12">
-                  <staff xml:id="staff-12" n="1">
-                     <layer xml:id="layer-12" n="1"/>
-                  </staff>
+<staff xml:id="staff-12" n="1">
+                           <layer xml:id="o108sttb" n="1">
+                              <note xml:id="p1mogeqj" dots="1" dur.ppq="12" dur="breve" oct="5" pname="d">
+                                 <accid xml:id="q1l9dnm9" />
+                              </note>
+                              <note xml:id="r1f5mteg" dur.ppq="2" dur="2" oct="4" pname="d" stem.dir="up">
+                                 <accid xml:id="s177g2w0" accid="s" accid.ges="s" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-13" n="13" facs="#zone-1-13">
                   <staff xml:id="staff-13" n="1">
@@ -187,34 +299,81 @@
                </measure>
                <sb xml:id="sb-1-15" n="2"/>
                <measure xml:id="measure-15" n="15" facs="#zone-1-15">
-                  <staff xml:id="staff-15" n="1">
-                     <layer xml:id="layer-15" n="1"/>
-                  </staff>
+<staff xml:id="staff-15" n="1">
+                           <layer xml:id="ee8r1us" n="1">
+                              <note xml:id="f1uy60ab" dots="1" dur.ppq="3" dur="2" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="g172n21c" />
+                              </note>
+                              <note xml:id="h6k2ymf" dur.ppq="1" dur="4" oct="5" pname="e" stem.dir="down">
+                                 <accid xml:id="ijsnb6y" />
+                              </note>
+                              <note xml:id="j11zjamk" dur.ppq="1" dur="4" oct="5" pname="f" stem.dir="down">
+                                 <accid xml:id="k1id7e3m" />
+                              </note>
+                              <note xml:id="l449a89" dur.ppq="1" dur="4" oct="5" pname="d" stem.dir="down">
+                                 <accid xml:id="m1hv110z" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-16" n="16" facs="#zone-1-16">
-                  <staff xml:id="staff-16" n="1">
-                     <layer xml:id="layer-16" n="1"/>
-                  </staff>
+<staff xml:id="staff-16" n="1">
+                           <layer xml:id="x13ml2o2" n="1">
+                              <note xml:id="y1dcdrk2" dots="1" dur.ppq="3" dur="2" oct="5" pname="f" stem.dir="down">
+                                 <accid xml:id="z1olhw7n" />
+                              </note>
+                              <note xml:id="ahbflrs" dur.ppq="1" dur="4" oct="5" pname="e" stem.dir="down">
+                                 <accid xml:id="b1jci4u" />
+                              </note>
+                              <note xml:id="c155yin6" dur.ppq="4" dur="1" oct="5" pname="d">
+                                 <accid xml:id="d15sydmj" />
+                              </note>
+                              <note xml:id="e12bv3pu" dur.ppq="2" dur="2" oct="5" pname="c" stem.dir="down">
+                                 <accid xml:id="f1koyalb" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-17" n="17" facs="#zone-1-17">
-                  <staff xml:id="staff-17" n="1">
-                     <layer xml:id="layer-17" n="1"/>
-                  </staff>
+<staff xml:id="staff-17" n="1">
+                           <layer xml:id="qn8diyc" n="1">
+                              <note xml:id="ro9gl9f" dur.ppq="8" dur="breve" oct="5" pname="d">
+                                 <accid xml:id="s1l0y6wm" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-18" n="18" facs="#zone-1-18">
-                  <staff xml:id="staff-18" n="1">
-                     <layer xml:id="layer-18" n="1"/>
-                  </staff>
+<staff xml:id="staff-18" n="1">
+                           <layer xml:id="d1be60w0" n="1">
+                              <mRest xml:id="ekuok5z" />
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-19" n="19" facs="#zone-1-19">
-                  <staff xml:id="staff-19" n="1">
-                     <layer xml:id="layer-19" n="1"/>
-                  </staff>
+<staff xml:id="staff-19" n="1">
+                           <layer xml:id="p8cfizm" n="1">
+                              <rest xml:id="q1mahlh8" dur.ppq="2" dur="2" />
+                              <note xml:id="rg6npc6" dur.ppq="4" dur="1" oct="5" pname="d">
+                                 <accid xml:id="s15vupzk" />
+                              </note>
+                              <note xml:id="t1eq7dby" dur.ppq="2" dur="2" oct="5" pname="d">
+                                 <accid xml:id="u1edx6uq" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-20" n="20" facs="#zone-1-20">
-                  <staff xml:id="staff-20" n="1">
-                     <layer xml:id="layer-20" n="1"/>
-                  </staff>
+<staff xml:id="staff-20" n="1">
+                           <layer xml:id="fu52bna" n="1">
+                              <note xml:id="go56820" dur.ppq="4" dur="1" oct="5" pname="c">
+                                 <accid xml:id="h117mejt" />
+                              </note>
+                              <note xml:id="i1taqbas" dur.ppq="4" dur="1" oct="4" pname="b">
+                                 <accid xml:id="jkso90o" accid.ges="f" glyph.auth="smufl" glyph.name="accidentalFlat" />
+                              </note>
+                           </layer>
+                        </staff>
                </measure>
                <measure xml:id="measure-21" n="21" facs="#zone-1-21">
                   <staff xml:id="staff-21" n="1">
